@@ -1,3 +1,5 @@
+# @format
+
 ci:
   skip: [prettier]
   autoupdate_schedule: quarterly
