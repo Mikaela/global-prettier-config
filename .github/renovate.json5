@@ -1,0 +1,5 @@
+/** @format */
+
+{
+  extends: ["github>Mikaela/shell-things:.renovate-shared"],
+}
