@@ -1,16 +1,17 @@
 {
-  "name": "@Mikaela/global-prettier-config",
-  "version": "2024.28.1",
   "description": "The prettier configuration I am using in most of my repositories.",
-  "main": "index.json",
-  "license": "CC0-1.0",
+  "homepage": "https://github.com/Mikaela/global-prettier-config",
   "keywords": [
     "prettier",
     "prettier-config"
   ],
+  "license": "CC0-1.0",
+  "main": "index.json",
+  "name": "@Mikaela/global-prettier-config",
+  "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903",
   "repository": {
     "type": "git",
     "url": "https://github.com/Mikaela/global-prettier-config"
   },
-  "homepage": "https://github.com/Mikaela/global-prettier-config"
+  "version": "2024.28.1"
 }
