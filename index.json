@@ -1,7 +1,6 @@
 {
   "bracketSameLine": true,
   "endOfLine": "auto",
-  "insertPragma": true,
   "overrides": [
     {
       "files": ".prettierrc",
@@ -31,6 +30,5 @@
   ],
   "proseWrap": "always",
   "quoteProps": "consistent",
-  "requirePragma": false,
   "singleAttributePerLine": true
 }
