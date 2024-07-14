@@ -20,3 +20,8 @@ repos:
         name: prettier
         entry: corepack pnpx prettier --cache --ignore-unknown --write
         language: system
+
+  - repo: https://github.com/fsfe/reuse-tool
+    rev: v4.0.3
+    hooks:
+      - id: reuse
