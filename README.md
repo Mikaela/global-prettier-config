@@ -14,8 +14,6 @@ JS and it will likely work.
    `package.json`, while maintaining valid syntax.
 1. `corepack pnpx prettier --cache --ignore-unknown --write .`
 
-```
-
 Feel free to also take a look at `.pre-commit-config.yaml`.
 
 ## Versioning
@@ -30,4 +28,3 @@ with `git tag`ging and only do versioning as npm forces me to.
 
 - [Prettier documentation on configuration, particularly the sharing configurations section](https://prettier.io/docs/en/configuration#sharing-configurations)
 - [@azz/prettier-config](https://github.com/azz/prettier-config)
-```
