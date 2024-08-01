@@ -1,6 +1,13 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.ci for more information
 ci:
   skip: [prettier]
   autoupdate_schedule: quarterly
+
+default_language_version:
+  node: "lts"
+  # Remember .python-version !
+  python: "3.12"
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -10,7 +17,12 @@ repos:
         args: ["--markdown-linebreak-ext", "md"]
       - id: check-json
       - id: pretty-format-json
-        args: [--autofix, --no-ensure-ascii]
+        args: [--autofix, --indent, "\t", --no-ensure-ascii]
+
+  - repo: https://github.com/pre-commit-ci/pre-commit-ci-config
+    rev: v1.6.1
+    hooks:
+      - id: check-pre-commit-ci-config
 
   - repo: local
     hooks:
