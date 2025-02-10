@@ -5,7 +5,6 @@ ci:
   autoupdate_schedule: quarterly
 
 default_language_version:
-  node: "lts"
   # Remember .python-version !
   python: "3.13"
 
