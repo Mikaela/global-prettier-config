@@ -2,10 +2,10 @@
 	"dependencies": {
 		"@prettier/plugin-ruby": "4.0.4",
 		"@prettier/plugin-xml": "3.4.1",
-		"prettier": "3.5.1",
+		"prettier": "3.5.2",
 		"prettier-plugin-nginx": "1.0.3",
-		"prettier-plugin-sh": "0.14.0",
-		"prettier-plugin-toml": "2.0.1"
+		"prettier-plugin-sh": "0.15.0",
+		"prettier-plugin-toml": "2.0.2"
 	},
 	"description": "The prettier configuration I am using in most of my repositories.",
 	"homepage": "https://github.com/Mikaela/global-prettier-config",
@@ -16,11 +16,11 @@
 	"license": "CC0-1.0",
 	"main": "index.json",
 	"name": "@aminda/global-prettier-config",
-	"packageManager": "pnpm@10.3.0+sha512.ee592eda8815a8a293c206bb0917c4bb0ff274c50def7cbc17be05ec641fc2d1b02490ce660061356bd0d126a4d7eb2ec8830e6959fb8a447571c631d5a2442d",
+	"packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af",
 	"prettier": "@aminda/global-prettier-config",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Mikaela/global-prettier-config"
 	},
-	"version": "2025.07.1"
+	"version": "2025.08.0"
 }
