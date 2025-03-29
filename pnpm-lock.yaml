@@ -23,11 +23,11 @@ importers:
         specifier: 1.0.3
         version: 1.0.3
       prettier-plugin-sh:
-        specifier: 0.15.0
-        version: 0.15.0(prettier@3.5.3)
+        specifier: 0.16.0
+        version: 0.16.0(prettier@3.5.3)
       prettier-plugin-toml:
-        specifier: 2.0.2
-        version: 2.0.2(prettier@3.5.3)
+        specifier: 2.0.3
+        version: 2.0.3(prettier@3.5.3)
 
 packages:
   "@prettier/plugin-ruby@4.0.4":
@@ -90,19 +90,19 @@ packages:
         integrity: sha512-vV5q85s8XnV6NEgvz1gVLfZhmxAxY03MyOYj2ApBpjFkbs00lRsRkTmqO9L39ADuD18z1RRCcfZ3eVxKhI/nqg==,
       }
 
-  prettier-plugin-sh@0.15.0:
+  prettier-plugin-sh@0.16.0:
     resolution:
       {
-        integrity: sha512-U0PikJr/yr2bzzARl43qI0mApBj0C1xdAfA04AZa6LnvIKawXHhuy2fFo6LNA7weRzGlAiNbaEFfKMFo0nZr/A==,
+        integrity: sha512-QaVH0X56IUy9niNczUQ0TxqVezcGzACz9XObbyxyAZ6NU/VCKnR9RUAcETyzCiPgcHKq/tjerCsqxn5nL3yo/w==,
       }
     engines: { node: ">=16.0.0" }
     peerDependencies:
       prettier: ^3.0.3
 
-  prettier-plugin-toml@2.0.2:
+  prettier-plugin-toml@2.0.3:
     resolution:
       {
-        integrity: sha512-tUIIhyfdVX5DMsLGKX/2qaEwi3W48OkUSR7XC91PRI5jFzhexmaYWkrSP1Xh/eWUcEc0TVMQenM3lB09xLQstQ==,
+        integrity: sha512-2KSzvgWiyF+uaGvX6wK+UENNjhvuSh+HlJym9tY+OyIk3L+yjlDUd0wHP1ZHNC+u8su4UZj2QVjJhq5sZ16zrQ==,
       }
     engines: { node: ">=16.0.0" }
     peerDependencies:
@@ -165,13 +165,13 @@ snapshots:
 
   prettier-plugin-nginx@1.0.3: {}
 
-  prettier-plugin-sh@0.15.0(prettier@3.5.3):
+  prettier-plugin-sh@0.16.0(prettier@3.5.3):
     dependencies:
       mvdan-sh: 0.10.1
       prettier: 3.5.3
       sh-syntax: 0.4.2
 
-  prettier-plugin-toml@2.0.2(prettier@3.5.3):
+  prettier-plugin-toml@2.0.3(prettier@3.5.3):
     dependencies:
       "@taplo/lib": 0.4.0-alpha.2
       prettier: 3.5.3
